@@ -8,4 +8,4 @@ def login(request):
      just return a welcome message for now
      """
 
-     return HttpResponse("Hello, World!")
+     return render(request,'core/base.html',{})
